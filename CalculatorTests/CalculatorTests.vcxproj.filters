@@ -15,30 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Calculator.cpp">
+    <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WidgetsApp.cpp">
+    <ClCompile Include="ButtonFactoryTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ButtonFactory.cpp">
+    <ClCompile Include="ProcessorTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Processor.cpp">
+    <ClCompile Include="..\SWE_App\ButtonFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SWE_App\Processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SWE_App\Calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculator.h">
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WidgetsApp.h">
+    <ClInclude Include="..\SWE_App\ButtonFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ButtonFactory.h">
+    <ClInclude Include="..\SWE_App\Processor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Processor.h">
+    <ClInclude Include="..\SWE_App\Calculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
