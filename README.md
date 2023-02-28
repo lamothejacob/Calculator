@@ -6,3 +6,20 @@ A cross-platform calculator application  that used the Shunting Yard Algorithm f
 
 # Shunting Yard Algorithm
 Order of operations is followed by first translating the algebraic notation of the calculator into reverse polish notation. A problem with this approach was the handling of negative numbers. Specifically, whether a '-' should be treated as a minus symbol or a negate symbol. By testing whether the character to the left of the symbol is an operator, this problem is easily solved.
+
+# Before Running
+wxWidgets library should be installed and compiled at C:\wxWidgets
+
+Open properties for Visual Studio project
+
+Select C/C++ -> General -> Addition Include Directories
+
+"C:\wxWidgets\include;C:\wxWidgets\include\msvc"
+
+Select Linker -> Additional Library Dependencies
+
+"C:\wxWidgets\lib\vc_lib;C:\wxWidgets\lib\vc_x64_lib"
+
+Select Linker -> System -> Subsystem
+
+Change from Console to Windows
